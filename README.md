@@ -1,7 +1,7 @@
 # Formatted output speed
-Compares the speed of formatted output of Fortran and C++
+Compares the speed of formatted output of matrices of floating point numbers with Fortran and C++ printf.
 
-Output of ./time_mat.sh on WSL2. Here Fortran is much faster than C++ with printf.
+Output of ./time_mat.sh on WSL2. Here Fortran is much faster than C++.
 
 ```
 + rm -f a.out temp_print.txt temp_fprintf.txt
